@@ -1,7 +1,6 @@
-# HackBrasil2026
-Kackatoon Brasil 2026
-
 # ParSoM Smart Fields — Scrum com IA no Azure DevOps
+
+**Português** · [English](README.en.md)
 
 **Desenvolvimento com IA, sob gestão e controle.** Uma extensão do Azure
 DevOps que transforma o Epic e a Feature em formulários inteligentes e, com
@@ -9,6 +8,14 @@ um clique, prepara o repositório para que uma IA de programação (Claude
 Code, OpenAI Codex, Devin ou outra) trabalhe **dentro do Scrum que a equipe
 já usa**: lendo decisões estruturadas, registrando cada passo no quadro e
 parando quando precisa de uma pessoa.
+
+> **Mais detalhes em https://parsomproject.com.br** (português, inglês e
+> espanhol): o papel de cada pessoa do time, as páginas que a equipe
+> preenche, a ajuda de cada campo, os arquivos de IA, o quadro e as
+> garantias de controle e auditoria, com as telas reais do produto.
+>
+> - **Manual de instalação, passo a passo:** https://parsomproject.com.br/manual/
+> - **Manual em PDF:** https://parsomproject.com.br/manual/Manual-ParSoM-Smart-Fields.pdf
 
 ![Um Epic com as páginas ParSoM](images/marketplace/epic-form.jpg)
 
@@ -299,10 +306,11 @@ npm run build-dev      # compilação de desenvolvimento
 4. **Usar**: crie um Epic, preencha as páginas ParSoM, salve, e use
    **"…" → Create AI files in the repository**.
 
-O passo a passo completo, com cada tela, está no manual:
+O passo a passo completo, com cada tela, está no manual, em
+**https://parsomproject.com.br/manual/** (português, inglês e espanhol).
+No repositório: [`site/manual/index.html`](site/manual/index.html) e o PDF
 [`Manual/Manual-ParSoM-Smart-Fields.pdf`](Manual/Manual-ParSoM-Smart-Fields.pdf)
-(português) e em [`site/manual/index.html`](site/manual/index.html)
-(português, inglês e espanhol).
+(português).
 
 ### 5.4 O servidor de regras, localmente
 
@@ -413,5 +421,5 @@ da Microsoft (licença MIT); veja [`LICENSE`](LICENSE). Os catálogos, as
 regras do servidor e os conjuntos de IA são da ParSoM; os termos de uso da
 extensão estão em [`marketplace/license.md`](marketplace/license.md).
 
+**Mais detalhes**: https://parsomproject.com.br ·
 **Contato**: contato@parsomsolucoes.com.br
-
